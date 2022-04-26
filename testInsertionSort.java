@@ -4,11 +4,12 @@ import org.junit.Test;
 public class testInsertionSort {
 	insertionSort sort = new insertionSort();
 @Test
-public void test() {
-testPositive();
-testNegative();
-testMixed();
-testDuplicates();
+public void test()
+{
+	testPositive();
+	testNegative();
+	testMixed();
+	testDuplicates();
 }
     public testInsertionSort() {
     }
